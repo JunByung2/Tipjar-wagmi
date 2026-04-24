@@ -10,7 +10,7 @@ const config = createConfig({
   chains: [sepolia],
   connectors: [injected()],
   transports: {
-    [sepolia.id]: http(),
+    [sepolia.id]: http("https://sepolia.infura.io/v3/z-Vm7jjUqBHrxf8N_SIfc"),
   },
   ssr: true,
 });
